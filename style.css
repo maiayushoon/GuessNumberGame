@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0e244f;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.info{
+    font-style: italic;
+}
+#wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #000000;
+}
+
+h1 {
+    color: #272c32;
+}
+
+p {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+label {
+    height: fit-content;
+
+    /* background-color: #007bff; */
+    display: block;
+    margin-bottom: 8px;
+    color: #000000;
+    padding: 12px;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+#guessField {
+
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+    font-size: 16px;
+}
+
+.guessSubmit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.resultParas {
+    margin-top: 30px;
+}
+
+.guesses, .LastResult, .lowOrHi {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
